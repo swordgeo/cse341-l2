@@ -1,0 +1,28 @@
+{
+  "name": "cse341-l1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swordgeo/cse341.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swordgeo/cse341/issues"
+  },
+  "homepage": "https://github.com/swordgeo/cse341#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
